@@ -1,0 +1,16 @@
+.sty {
+    border: 2px solid black;
+  }
+  .fs{
+      font-size: 13px;
+  }
+  .bcv{
+      background-color: blueviolet;
+  }
+  .bc{
+      color:blueviolet;
+  }
+  .cb{
+      color:blueviolet;
+      border:2px solid blueviolet;
+  }
