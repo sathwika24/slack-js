@@ -1,14 +1,14 @@
 import React from 'react'
 import "./MyStyle.css"
 
- import {Nav,Navbar,Button} from 'react-bootstrap'
+ import {Nav,Navbar,Button,Image} from 'react-bootstrap'
 
 const NavBar = () => {
     return (
       <>
         
 <Navbar collapseOnSelect expand="lg"  variant="dark">
-  <Navbar.Brand href="#home"><img src="images/LogoSlack1.png"/></Navbar.Brand>
+  <Navbar.Brand href="#home"><Image src="images/LogoSlack1.png"/></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-dark" />
   <Navbar.Collapse  id="responsive-navbar-nav">
     <Nav className="ml-auto">
@@ -17,7 +17,7 @@ const NavBar = () => {
       <Nav.Link className="text-dark" href="#pricing">About Us</Nav.Link>
     </Nav>
     <Nav>
-      <Button className="btn bg-light text-dark sty"  href="#">Your Workingspace</Button>
+      <Button className="btn bg-light text-dark sty d-none d-lg-block"  href="#">Your Workingspace</Button>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
